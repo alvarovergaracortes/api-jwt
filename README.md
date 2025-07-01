@@ -94,7 +94,7 @@ Authorization: Bearer <token>
 ## 📖 Swagger UI
 
 Puedes explorar la API desde la interfaz de Swagger:
-👉 [http://localhost:8082/swagger-ui.html](http://localhost:8082/swagger-ui.html)
+👉 [http://localhost:8082/swagger-ui/index.html](http://localhost:8082/swagger-ui/index.html)
 
 ## 👨‍💻 Autor
 

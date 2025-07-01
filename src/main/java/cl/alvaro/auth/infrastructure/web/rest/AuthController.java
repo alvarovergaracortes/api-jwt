@@ -17,7 +17,7 @@ import io.swagger.v3.oas.annotations.tags.Tag;
 
 @Tag(name = "AuthController", description = "descripcion del rest")
 @RestController
-@RequestMapping("/auth")
+@RequestMapping("/api/auth")
 public class AuthController {
 
     private final AuthUseCase authUseCase;
@@ -29,7 +29,7 @@ public class AuthController {
     @Operation(summary = "Inicio de sesión", description = "Autentica al usuario y retorna un token JWT")
     @ApiResponses(value = {
         @ApiResponse(responseCode = "200", description = "Login exitoso"),
-        @ApiResponse(responseCode = "401", description = "Credenciales inválidas"),
+        @ApiResponse(responseCode = "401", description = "Credenciales inválidas, usuario no autenticado"),
         @ApiResponse(responseCode = "500", description = "Error interno del servidor")
     })
     @PostMapping("/login")
