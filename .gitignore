@@ -1,0 +1,16 @@
+# Archivos de sistema
+.DS_Store
+
+# Maven
+/target/
+
+# Logs
+*.log
+
+# IDEs
+/.idea/
+/*.iml
+/.vscode/
+/out/
+/.settings/
+/bin/
