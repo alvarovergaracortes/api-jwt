@@ -44,7 +44,7 @@ api-jwt/
 
 ```bash
 # Clona el repositorio (si aplica)
-git clone https://github.com/tu-usuario/api-jwt.git
+git clone https://github.com/alvarovergaracortes/api-jwt.git
 cd api-jwt
 
 # Construir el proyecto
